@@ -1,0 +1,493 @@
+
+.menu2{
+  background-color: aliceblue;
+}
+.social ul.nolist {
+  justify-content:right;
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  background-color: rgb(230, 229, 229);
+ }
+a.linki{
+  background-repeat: no-repeat;
+  padding-left: 20px;
+}
+.face{
+  background-repeat: no-repeat;
+  padding-left: 20px;
+} 
+.twit{
+  background-repeat: no-repeat;
+  padding-left: 20px;
+}
+a.inst{
+  background-repeat: no-repeat;
+  padding-left: 20px;
+}
+.btmlinks{
+  text-decoration: none;
+
+  color:blue;
+}
+#primary-menu{
+  z-index: 6;
+  position: fixed;
+  background-color: aliceblue;
+  width: 100%;
+  height: auto;
+  margin-top: 50px;
+}
+#footer__global-footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#footer__content {
+  flex: 1 0 30%; 
+  margin-bottom: 10px;
+}
+#footer__content{
+  background-color: antiquewhite;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+  
+}
+ul.nolist{
+  list-style-type: none;
+}
+.btmheads{
+  color: blue;
+}
+.btmbtn{
+  text-decoration: none;
+  color: rgb(58, 57, 57);
+}
+.btmlinks{
+  display: flex;
+  flex-wrap: wrap;
+ }
+#footer__global-footer{
+  background-color: blue;
+  margin-top: auto;
+}
+body {
+  overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+ }
+.panel-collection{
+  position: relative;
+}
+.bg-image{
+  z-index: 0;
+  width: 100%;
+  height: 100%;
+  
+}
+.bg-image img {
+  width: 100%;
+}
+.text-over-image {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(255, 255, 255);
+  font-size: 120px;
+  text-align: center;
+  
+}
+.airexplore{
+  color: rgb(255, 255, 255);
+  font-family: Open_Sans;
+  font-size: 30px;
+  text-align: center;
+}
+.exploreair{
+  z-index: 0;
+    width: auto;
+    height: 5%;
+    background-color: blue;
+   
+    margin-top: 0;
+    
+}
+.containimgnair{
+  overflow: hidden;
+}
+.topsec1{
+  z-index: 2;
+  width: auto;
+  height: 40px;
+  
+  position: fixed;
+}
+
+
+.menutop1{
+  top: 0;
+    left: 0;
+  z-index: 6;
+  display: grid;
+  grid-template-columns: repeat(8, 13%);
+  justify-items: center;
+  align-items: center; 
+  width: 100%;
+  height: auto;
+  list-style-type: none;
+  padding: -22;
+    position: fixed;
+    background-color: blue;
+    margin-top: 0;
+}
+.menutop2{
+  z-index: 4;
+  display: grid;
+  grid-template-columns: repeat(10, 13%);
+  justify-items: left;
+  align-items: center; 
+  width: 100%;
+  height: auto;
+  list-style-type: none;
+  padding: 0;
+  position: fixed;
+  margin-top: 10;
+  color: rgb(255, 255, 255);
+}
+.b1{
+  margin: 10px;
+  font-family: Open_Sans;
+  color: black;
+  text-decoration: none;
+}
+.a1{
+  font-weight: 600;
+  text-decoration: none;
+  margin: 5px;
+  font-family: Open_Sans;
+  color: white;
+  font-size: 15px;
+}
+.footeralign1{
+  display: grid;
+  grid-template-columns: repeat(4, 20%);
+  justify-items: left;
+  align-items: center; 
+  width: 100%;
+  height: 10px;
+  list-style-type: none;
+  padding: 0;
+}
+.footeralign2{
+  display: grid;
+  grid-template-columns: repeat(8, 20%);
+  justify-items: left;
+  align-items: center; 
+  width: 100%;
+  height: 10px;
+  list-style-type: none;
+  padding: 0;
+}
+.a{
+  font-weight: 600;
+  text-decoration: none;
+  margin: 5px;
+  font-family: Open_Sans;
+  color: white;
+  font-size: 13px;
+}
+.a0{
+  font-weight: 600;
+  text-decoration: none;
+  margin: 5px;
+  font-family: Open_Sans;
+  color: white;
+  text-align: center;
+  font-size: 14px;
+}
+.a2{
+  font-weight: 400;
+  text-decoration: none;
+  margin: 5px;
+  font-family: Open_Sans;
+  color: white;
+  font-size: 12px;
+}
+.vcard{
+  color: white;
+}
+.airunimaintoplogo{
+  font-weight: 1000; 
+  
+  font-family: OldStanfordTT;
+  color: white;
+  font-size: 15px;
+  text-decoration: none;
+} 
+.hcc:hover {
+  color: rgb(11, 6, 6);
+ }
+ 
+ 
+ .buttonsearch {
+  display: none;
+ }
+
+
+ 
+ .head1{
+  color: black;
+  font-family: Open_Sans;
+  font-size: 48;
+  text-align: center;
+}
+.head2{
+  color: white;
+  font-family: Open_Sans;
+  font-size: 24;
+  text-align: center;
+  text-decoration: none;
+  
+}
+.text1{
+  color: rgb(80, 80, 80);
+  font-family: Submariner;
+  font-size: 34;
+  text-align: center;
+}
+.text2{
+  color: rgb(40, 40, 40);
+  font-family: Submariner;
+  font-size: 28;
+  text-align: center;
+}
+.text3{
+  color: black;
+  font-family: Open_Sans;
+  font-size: 24;
+  text-align: center;
+}
+.text4{
+  color: black;
+  font-family: Open_Sans;
+  font-size: 28;
+  text-align: center;
+}
+.text5{
+  color: blue;
+  font-family: Submariner;
+  font-size: 22;
+  text-align: center;
+}
+
+.c1{
+  z-index: 0;
+  width: auto;
+  height: 5%;
+  background-color:blue;
+  overflow: hidden;
+}
+.c2{
+  z-index: 0;
+  width: auto;
+  height: 60%;
+  background-color: white;
+  overflow: hidden;
+}
+.c3{
+  z-index: 0;
+  width: auto;
+  height: 110%;
+  background-color: whitesmoke;
+  overflow: hidden;
+}
+.c3-1{
+  z-index: 1;
+  width: auto;
+  height: 30%;
+  background-color: whitesmoke;
+  overflow: hidden;
+  display: flex;
+}
+.c4{
+  z-index: 0;
+  width: auto;
+  height: 110%;
+  background-color: white;
+  overflow: hidden;
+}
+.c4-1{
+  z-index: 1;
+  width: auto;
+  height: 50%;
+  background-color: white;
+  overflow: hidden;
+  display: flex;
+}
+.img1{
+  z-index: 0;
+  width: auto;
+  height: 70%;
+  background-color: black;
+  overflow: hidden;
+}
+.c5{
+  z-index: 0;
+  width: auto;
+  height: 80%;
+  background-color: white;
+  overflow: hidden;
+}
+.c5-1{
+  z-index: 1;
+  width: auto;
+  height: 35%;
+  background-color: white;
+  overflow: hidden;
+  display: flex;
+}
+.c6{
+  z-index: 0;
+  width: auto;
+  height: 92.5%;
+  background-color: whitesmoke;
+  overflow: hidden;
+}
+.c6-1{
+  z-index: 1;
+  width: auto;
+  height: 60%;
+  background-color: whitesmoke;
+  overflow: hidden;
+  display: flex;
+}
+.c7{
+  z-index: 0;
+  width: auto;
+  height: 92.5%;
+  background-color: white;
+  overflow: hidden;
+}
+.c7-1{
+  z-index: 1;
+  width: auto;
+  height: 65%;
+  background-color: white;
+  overflow: hidden;
+  display: flex;
+}
+.img2{
+  z-index: 0;
+  width: auto;
+  height: 72.5%;
+  background-color: black;
+  overflow: hidden;
+}
+.c8{
+  z-index: 0;
+  width: auto;
+  height: 92.5%;
+  background-color: white;
+  overflow: hidden;
+}
+.c9{
+  z-index: 0;
+  width: auto;
+  height: 92.5%;
+  background-color: whitesmoke;
+  overflow: hidden;
+}
+.c10{
+  z-index: 0;
+  width: auto;
+  height: 180%;
+  background-color: white;
+  overflow: hidden;
+}
+.c11{
+  z-index: 0;
+  width: auto;
+  height: 7.5%;
+  background-color: whitesmoke;
+  overflow: hidden;
+}
+.c12{
+  z-index: 0;
+  width: auto;
+  height: 40%;
+  background-color: white;
+  overflow: hidden;
+}
+.c13{
+  z-index: 0;
+  width: auto;
+  height: 12.5%;
+  background-color: blue;
+  overflow: hidden;
+}
+.morebox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%; /* Make sure the height is set to 100% */
+    width: 25%;
+  background-color: blue;
+  margin-left: 37.5%;
+  justify-content: center;
+}
+.c3box1{
+  z-index: 2;
+  width: 32.5%;
+  height: 100%;
+  background-color: black;
+}
+.c3box2{
+  z-index: 0;
+  width: 15%;
+  height: 100%;
+  background-color: black;
+}
+.c4box1{
+  z-index: 0;
+  width: 21%;
+  height: 100%;
+  background-color: whitesmoke;
+  background-size: cover;
+    background-position: center;
+ object-fit: contain;
+ overflow:hidden;
+}
+.retainsize{
+  width: 100%;
+  height: 100%;
+}
+.c4box2{
+  z-index: 0;
+  width: auto;
+  height: 55%;
+  object-fit: cover;
+  
+}
+.c5box1{
+  z-index: 0;
+  width: 25%;
+  height: 100%;
+  background-color: white;
+}
+.c6box1{
+  z-index: 2;
+  width: 18.5%;
+  height: 100%;
+  background-color: white;
+}
+.c6box2{
+  z-index: 3;
+  width: auto;
+  height: 60%;
+  background-color: black;
+}
